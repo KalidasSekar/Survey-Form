@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Survey Form</h1>
+        <hr>
+        <div class="container-md">
+            <form action="">
+                <h6 class="required">Name</h6>
+                <div class=" row g-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                            required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+
+                    <label for="exampleFormControlInput1" class="form-label">
+                        <h6 class="required">Email</h6>
+                    </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <h6 class="required">Your Experiene</h6>
+                <div>
+                    <span id="star" class="fa fa-star checked"></span>
+                    <span id="star1" class="fa fa-star checked"></span>
+                    <span id="star" class="fa fa-star checked"></span>
+                    <span id="star" class="fa fa-star checked"></span>
+                    <span id="star" class="fa fa-star checked"></span>
+                </div>
+                <div class="rateYourExperence">
+                    <p>Overall, how would you rate you experiene with us?</p>
+                </div>
+                <div>
+                    <h6 class="required" style="font-weight: bold;">How satisfied are you with</h6>
+                    <div style="overflow-x:auto;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Very Unsatisfied</th>
+                                    <th scope="col">Unsatisfied</th>
+                                    <th scope="col">Neutral</th>
+                                    <th scope="col">Satisfied</th>
+                                    <th scope="col">Very Satisfied</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Purchase</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Service</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Company Overall</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Company Overall"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Company Overall"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Company Overall"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Company Overall"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Company Overall"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h6 class="required" style="font-weight: bold;">How likely are you to</h6>
+                    <div style="overflow-x:auto;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Very Unsatisfied</th>
+                                    <th scope="col">Unsatisfied</th>
+                                    <th scope="col">Neutral</th>
+                                    <th scope="col">Satisfied</th>
+                                    <th scope="col">Very Satisfied</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Buy from us again</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="Buy from us again" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="Buy from us again" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="Buy from us again" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="Buy from us again" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="purchase"
+                                                id="Buy from us again" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Recommanded our product to others</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="RecommandedProduct" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="RecommandedProduct" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="RecommandedProduct" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="RecommandedProduct" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Service"
+                                                id="RecommandedProduct" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Recommanded our company to others</th>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="RecommandedCompany"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="RecommandedCompany"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="RecommandedCompany"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="RecommandedCompany"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="RecommandedCompany"
+                                                id="inlineRadio1" value="" required>
+                                            <label class="form-check-label" for="inlineRadio1"></label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="input-group">
+                    <div>
+                        <h6 class="required">Additional comments or suggestions</h6>
+                    </div>
+                    <div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

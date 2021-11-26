@@ -1,0 +1,68 @@
+body{
+    background-color: whitesmoke;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+}
+.container-md{
+    padding: 20px;
+}
+
+input{
+    margin: 10px;
+}
+.required{
+    margin-bottom: 10px;
+}
+.rateYourExperence{
+    margin-top: 10px;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+.checked {
+  color: orange;
+}
+
+input[type="radio"]{
+    border: solid grey;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+}
+
+textarea{
+    margin-bottom: 15px;
+}
+
+th{
+    color: grey;
+    font-weight: bold;
+    font-size: 13px;
+}
+td input{
+    align-content: center;
+}
+
+.form-check-inline{
+    display: inline-block;
+    margin-left: 1rem;;
+}
+
+th{
+    text-align:justify;
+}
+
+@media (max-width:570px) {
+    table{
+        display:table;
+        width: 50%;
+    }
+    
+}
